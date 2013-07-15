@@ -1,0 +1,21 @@
+
+
+/* ==========================================================================
+   Ingenius Systems custom styles
+   ========================================================================== */
+
+
+.color-box {
+	width: 90px;
+	height: 90px;
+	background-color: white;
+	border: 1px solid #e4e4e3;
+}
+
+.color-green {
+	background-color: #48b38c;
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+}
