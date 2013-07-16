@@ -3,19 +3,83 @@
 /* ==========================================================================
    Ingenius Systems custom styles
    ========================================================================== */
+.label_name{
+	font-size:1.6em;
+}
 
-
-.color-box {
+.bakcground_color_box {
 	width: 90px;
 	height: 90px;
 	background-color: white;
 	border: 1px solid #e4e4e3;
 }
 
-.color-green {
+.bakcground_color_green_light {
 	background-color: #48b38c;
 	height: 80px;
 	width: 80px;
 	margin: 5px;
 	text-align: center;
 }
+.bakcground_color_green_dark{
+	background-color: #558788;
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+}
+
+.bakcground_color_green_harddark{
+	background-color: #275155;
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+}
+.bakcground_color_gray_light{
+	background-color: #e8edee;
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+}
+.bakcground_color_dark{
+	background-color: #222222;
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+}
+.bakcground_color_dark_grey{
+	background-color: #303030;
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+}
+.bakcground_color_grey{
+	background-color: #bfbfbf;
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+}
+.color_green_light{
+	color:#48b38c ;
+}
+.color_green_dark{
+	color:#558788}
+.color_green_harddark{
+	color:#275155;
+}
+.color_gray_light{
+	color:#e8edee;}
+.color_dark{
+	color:#222222;
+}
+.color_dark_grey{
+	color:#303030;
+}
+.color_grey{
+	color:#bfbfbf}
+
