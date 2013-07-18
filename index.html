@@ -72,7 +72,7 @@
             <!-- Let's go -->
 			
 			<div class="row">
-				<h2 id="#Colors">Colors</h2>
+				<h2 id="Colors">Colors</h2>
 				<hr>
 				<div class="span7">
 				<h5>Backgrounds</h5>
@@ -144,18 +144,22 @@
 			</div>
 				
 			<div class="row">
-				<h2>Typography</h2>
+				<h2 id="Typography">Typography</h2>
 				<hr>
-				<div class="span4">
-					<h5>Body p</h5>
-					<p>Nullam quis risus eget urna mollis ornare vel eu leo. 
-					Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
-					ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-					</p>
-				</div>
-				<div class="span3">
-					<h5>Lead body copy</h5>
-					<p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+				<div class="span7">
+					<div class="row">
+						<div class="span4">
+							<h5>Body p</h5>
+							<p>Nullam quis risus eget urna mollis ornare vel eu leo. 
+							Cum sociis natoque penatibus et magnis dis parturient montes, nascetur 
+							ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+							</p>
+						</div>
+						<div class="span3">
+							<h5>Lead body copy</h5>
+							<p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+						</div>
+					</div>
 				</div>
 				<div class="span5">
 					<div class="well">
@@ -178,7 +182,7 @@
 					</div>
 			</div>
 			<div class="row">
-				<h2>Heading</h2>
+				<h2 id="Heading">Heading</h2>
 				<hr>
 				<div class="span7">
 						
@@ -193,17 +197,16 @@
 					
 				<div class="span5">
 						<div class="well">
-							<p class="lead">Использование данных элементов</p>
-							<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-							<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-							класс и он будет красить любой элемент</p>
+							<p class="lead">Использование заголовков</p>
+							<p>Все заголовки заключаются в теги h, отображаться заголовки будут как указано слева исходя из выбранного тега h. </p>
+						
 							
 						</div>
 				</div>
 			</div>	
 			
 			<div class="row">	
-			<h2>Formatting</h2>
+			<h2 id="Formatting">Formatting</h2>
 				<hr>
 				<div class="span7">
 					<h5>Emphasis</h5>
@@ -246,28 +249,26 @@
 				</div>
 				<div class="span5">
 					<div class="well">
-						<p class="lead">Использование данных элементов</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
+						<p class="lead">Форматирование текста</p>
+						<ul>
+							<li>Маленький шрифт <xmp><small></small></xmp></li>
+							<li>Жирый шрифт	<xmp><bold> </bold></xmp> </li>
+							<li>Курсив <xmp><em></em></xmp> </li>
+							<li>Цитата<xmp><blockquote></blockquote></xmp></li>
+							<li>Подпись под цитатой<xmp><small><cite></cite></small></xmp></li>
+							<li>Выравнивание по левому краю. Class:text-left </li>
+							<li>Выравнивание по центру. Class:text-center </li>
+							<li>Выравнивание по правому краю. Class:text-right </li>			
+						</ul>
+						</p>
 						
 							
 					</div>
 				</div>
-									
 			</div>
 			
 			<div class="row">
-				<h2>Lists</h2>
+				<h2 id="Lists">Lists</h2>
 				<hr>
 				<div class="span7">
 				<h5>ListsUnordered</h5>
@@ -289,16 +290,16 @@
 					</br>
 					
 					<h5>ListsUOrdered</h5>
-					<ol>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Consectetur adipiscing elit</li>
-					<li>Integer molestie lorem at massa</li>
-					<li>Facilisis in pretium nisl aliquet</li>
-					<li>Nulla volutpat aliquam velit</li>
-					<li>Faucibus porta lacus fringilla vel</li>
-					<li>Aenean sit amet erat nunc</li>
-					<li>Eget porttitor lorem</li>
-					</ol>
+						<ol>
+							<li>Lorem ipsum dolor sit amet</li>
+							<li>Consectetur adipiscing elit</li>
+							<li>Integer molestie lorem at massa</li>
+							<li>Facilisis in pretium nisl aliquet</li>
+							<li>Nulla volutpat aliquam velit</li>
+							<li>Faucibus porta lacus fringilla vel</li>
+							<li>Aenean sit amet erat nunc</li>
+							<li>Eget porttitor lorem</li>
+						</ol>
 					</br>
 					 
 					 
@@ -323,26 +324,24 @@
 					<h5>ListInline</h5>
 					<ul class="inline">
 						<li>Lorem ipsum dolor sit amet</li>
-					 <li>Consectetur adipiscing elit</li>
-					 <li>Integer molestie lorem at massa</li>
+						<li>Consectetur adipiscing elit</li>
+						<li>Integer molestie lorem at massa</li>
 					</ul>
 					</br>
 			</div>
 			<div class="span5">
 					<div class="well">
-						<p class="lead">Использование данных элементов</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
+						<p class="lead">Списки</p>
+						<p>
+						<ul><li>Непронумерованный список<xmp><ul><li>...</li></ul></xmp></li>
+							<li>Пронумерованный список<xmp><ol><li>...</li></ol></xmp></li>
+							<li>Нестилизованный список<xmp><ul class="unstyled"><li>...</li></ul></xmp></li>
+							<li>Инлайн список<xmp><ul class="inline"><li>...</li></ul></xmp></li>
+							
+							
+						</ul>		
+						
+						</p>
 						
 							
 					</div>
@@ -352,7 +351,7 @@
 			
 			
 			<div class="row">
-			<h2>Tables</h2>
+			<h2 id="Tables">Tables</h2>
 			<hr>
 			
 				<div class="span7">
@@ -389,10 +388,8 @@
 				</div>
 				<div class="span5">
 						<div class="well">
-							<p class="lead">Использование данных элементов</p>
-							<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-							<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-							класс и он будет красить любой элемент</p>
+							<p class="lead">Таблицы</p>
+							<p>Стандартная таблица</p>
 							
 						</div>
 					</div>
@@ -400,7 +397,7 @@
 			</div>
 			
 			<div class="row">
-				<h2>Form Fields Default</h2>
+				<h2 id="Fields">Form Fields Default</h2>
 				<hr>
 				<div class="span7">
 				
@@ -408,7 +405,7 @@
 				<h5>Text input with placeholder</h5>
 				<form>
 					<fieldset>
-					<input type="text" placeholder="Type something…">	
+						<input type="text" placeholder="Type something…">	
 					</fieldset>
 				</form>
 				
@@ -455,16 +452,42 @@
 				</div>
 				<div class="span5">
 					<div class="well">
-						<p class="lead">Использование данных элементов</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-						класс и он будет красить любой элемент</p>
+						<p class="lead">Поля ввода</p>
+						<ul>
+							<li>Поле ввода с подсказкой <xmp><form><fieldset><input type="text" 
+placeholder="Type something…"></fieldset></form></xmp></li>
+							<li>Поле ввода без подсказки <xmp><form><fieldset><input type="text" 
+</fieldset></form></xmp></li>
+							<li>Поле ввода mini. Class:input-mini</li>
+							<li>Поле ввода small. Class:input-small</li>
+							<li>Поле ввода medium. Class:input-medium</li>
+							<li>Поле ввода large. Class:input-large</li>
+							<li>Поле ввода xlarge. Class:input-xlarge</li>
+							<li>Поле ввода xxlarge. Class:input-xxlarge</li>
+							<li>Поиск с подсказкой <xmp><form class="form-search"><input type="text"
+placeholder="Type something…" class="input-medium 
+search-query"><button type="submit" 
+class="btn">Search</button></form></xmp></li>
+							<li>Поиск без подсказки <xmp><form class="form-search"><input type="text"
+class="input-medium search-query"><button
+ type="submit" class="btn">Search</button>
+</form></xmp></li>
+							<li>Поле при некорректном вводе <xmp><input class="span3" type="email" required></xmp></li>
+							<li>Поле с фокусом<xmp><input class="input-xlarge" id="focusedInput" 
+type="text" value="This is focused..."></xmp></li>
+							<li>Форма с сохранением<xmp><div class="form-actions"><button type="submit" 
+class="btn btn-primary">Save changes</button><button 
+type="button" class="btn">Cancel</button></div></xmp>
+							</li>
+							<li>Поле ввода текста<xmp><textarea rows="3"></textarea></xmp> </li>
+						
+						</ul>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<h2>Buttons</h2>
+				<h2 id="Buttons">Buttons</h2>
 				<hr>
 				
 				<table class="table table-bordered table-striped">
@@ -549,10 +572,28 @@
 					</div>
 					<div class="span5">
 						<div class="well">
-							<p class="lead">Использование данных элементов</p>
-							<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-							<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-							класс и он будет красить любой элемент</p>
+							<p class="lead">Чекбокс</p>
+							<ul>
+								<li>Checkbox <xmp><label class="checkbox">
+<input type="checkbox" value=""></label>
+<label class="radio"><input type="radio" 
+name="optionsRadios" id="optionsRadios1"
+ value="option1" checked></label>  
+ <input type="radio" name="optionsRadios"
+ id="optionsRadios2" value="option2">
+</label></xmp></li>
+							<li>Checkbox-inline <xmp><label class="checkbox">
+<label class="checkbox inline">
+<input type="checkbox" id="inlineCheckbox1"
+ value="option1"> 1</label>
+<label class="checkbox inline">
+<input type="checkbox" id="inlineCheckbox2"
+ value="option2"> 2</label>
+<label class="checkbox inline">
+<input type="checkbox" id="inlineCheckbox3"
+ value="option3"> 3</label></xmp>						
+</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -651,9 +692,9 @@
 						</div>
 				</div>
 				</div>
-			
+			</div>
 			<div class="row">
-				<h2>Tabs</h2>
+				<h2 id="tabs">Tabs</h2>
 				<hr>
 				<div class="span7">
 				<h5>tabs</h5>
@@ -707,9 +748,9 @@
 				</div>
 			</div>
 			
-			
+			</div>
 			<div class="row">
-				<h2>Breadcrumps</h2>
+				<h2 id="Breadcrumps">Breadcrumps</h2>
 				<hr>
 				<div class="span7">
 					
@@ -731,7 +772,7 @@
 			</div>
 			
 			<div class="row">
-				<h2>Pagination</h2>
+				<h2 id="Pagination"></h2>
 				<hr>
 				<div class="span7">	
 					<div class="pagination">
@@ -746,16 +787,21 @@
 				</div>	
 				<div class="span5">
 					<div class="well">
-						<p class="lead">Использование данных элементов</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-								класс и он будет красить любой элемент</p>
+						<p class="lead">Пагинатор</p>
+						<p>
+						<xmp><div class="pagination">
+<ul><li class="disabled"><a href="#">&laquo;</a></li>
+<li class=""><a href="#">1</a></li>
+<li class=""><a href="#">2</a></li>
+<li class=""><a href="#">3</a></li></ul></div></xmp>
+					
+						</p>
 					</div>
 				</div>			
 			</div>
 			
 			<div class="row">
-				<h2>Alert</h2>
+				<h2 id="Alert">Alert</h2>
 				<div class="span7">
 					<div class="alert">
 					<button type="button" class="close" data-dismiss="alert">&times;</button>
@@ -774,17 +820,22 @@
 				</div>
 				<div class="span5">
 					<div class="well">
-						<p class="lead">Использование данных элементов</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-								класс и он будет красить любой элемент</p>
+						<p class="lead">Алерты</p>
+						<p><ul>
+								<li>Алерт  class:alert</li>
+								<li>Алерт ошибка  class:alert-error</li>
+								<li>Алерт информация class:alert-info</li>
+								<li>Алерт успешно class:alert-success</li>
+								
+								
+							</ul></p>
 					</div>
 				</div>	
 			</div>
 		
 			
 			<div class="row">
-				<h2>Progress Bar</h2>
+				<h2 id="Bars">Progress Bar</h2>
 				<div class="span7">
 					<div class="progress">
 					  <div class="bar" style="width: 60%;"></div>
@@ -812,7 +863,7 @@
 				</div>	
 			</div>
 			<div class="row">
-				<h2>Badges</h2>		
+				<h2 id="Badges">Badges</h2>		
 				<div class="span7">
 					<span class="badge">1</span>
 					<span class="badge badge-success">2</span>
@@ -823,15 +874,22 @@
 				</div>
 				<div class="span5">
 					<div class="well">
-						<p class="lead">Использование данных элементов</p>
-						<p>На проекте используется 7 цветов. Кроме этих цветов нельзя использовать никакие другие. </p>
-						<p><b>ToDo: </b>Необходимо для каждого цвета создать отдельный класс, который позволит просто указывать 
-								класс и он будет красить любой элемент</p>
+						<p class="lead">
+							Бейджы
+						</p>
+						<ul>
+								<li>Бейдж  class:badge</li>
+								<li>Бейдж успешно class:badge-success</li>
+								<li>Бейдж внимание class:badge-warning</li>
+								<li>Бейдж важно class:badge-important</li>
+								<li>Бейдж информация class:badge-info</li>
+								<li>Бейдж инверсия class:badge-inverse</li>
+							</ul>
 					</div>
 				</div>	
 			</div>
 			<div class="row">
-				<h2>Checkbox</h2>
+				<h2 id="Checkbox">Checkbox</h2>
 				<hr>
 				<div class="span7">
 				<div class="btn-group" data-toggle="buttons-checkbox">
@@ -850,7 +908,7 @@
 				</div>	
 			</div>
 			<div class="row">
-				<h2>RadioButton</h2>
+				<h2 id="RadioButtons">RadioButtons</h2>
 				<hr>
 				<div class="span7">
 				<div class="btn-group" data-toggle="buttons-radio">
@@ -869,7 +927,7 @@
 				</div>	
 			</div>
 			<div class="row">
-				<h2>Images</h2>
+				<h2 id="Images">Images</h2>
 				<hr>
 				<div class="span2">
 					<img data-src="holder.js/100x100" alt="" class="img-rounded">
