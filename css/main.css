@@ -1,68 +1,85 @@
 
-
+body{
+font-size:10px;
+}
 /* ==========================================================================
    Ingenius Systems custom styles
    ========================================================================== */
+ @font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;	
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}  
+   
 .label_name{
 	font-size:1.6em;
 }
 
-.bakcground_color_box {
+.background_color_box {
 	width: 90px;
 	height: 90px;
 	background-color: white;
 	border: 1px solid #e4e4e3;
 }
+.background_color_box_in{
+	height: 80px;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+}
+.background_color_green_light {
+	background-color: #48b38c !important;
+	
+}
+.background_color_green_dark{
+	background-color: #558788 !important;
+	
+}
 
-.bakcground_color_green_light {
-	background-color: #48b38c;
-	height: 80px;
-	width: 80px;
-	margin: 5px;
-	text-align: center;
+.background_color_green_harddark{
+	background-color: #275155 !important;
+	
 }
-.bakcground_color_green_dark{
-	background-color: #558788;
-	height: 80px;
-	width: 80px;
-	margin: 5px;
-	text-align: center;
+.background_color_gray_light{
+	background-color: #e8edee !important;
+	
 }
-
-.bakcground_color_green_harddark{
-	background-color: #275155;
-	height: 80px;
-	width: 80px;
-	margin: 5px;
-	text-align: center;
+.background_color_dark{
+	background-color: #222222 !important;
+	
 }
-.bakcground_color_gray_light{
-	background-color: #e8edee;
-	height: 80px;
-	width: 80px;
-	margin: 5px;
-	text-align: center;
+.background_color_dark_grey{
+	background-color: #303030 !important;
+	
 }
-.bakcground_color_dark{
-	background-color: #222222;
-	height: 80px;
-	width: 80px;
-	margin: 5px;
-	text-align: center;
-}
-.bakcground_color_dark_grey{
-	background-color: #303030;
-	height: 80px;
-	width: 80px;
-	margin: 5px;
-	text-align: center;
-}
-.bakcground_color_grey{
-	background-color: #bfbfbf;
-	height: 80px;
-	width: 80px;
-	margin: 5px;
-	text-align: center;
+.background_color_grey{
+	background-color: #bfbfbf !important;
+	
 }
 .color_green_light{
 	color:#48b38c ;
@@ -83,3 +100,152 @@
 .color_grey{
 	color:#bfbfbf}
 
+.open_sansregular{
+	font-family:open_sansregular;
+}
+.open_sanslight{
+	font-family:open_sanslight;
+}
+.open_sanssemibold{
+	font-family:open_sanssemibold;
+	
+}
+
+.big_h1_tahoma_gr{
+	font-size:7.2em;
+	font-family:Tahoma;
+	color:#bfbfbf;
+}
+.f18_opensanslight_brown{
+    color: #303030;
+    font-family: open_sanslight;
+    font-size: 1.8em;    
+}
+.f16_opensansregular_gr{
+	color:#275155;
+	font-family: open_sansregular;
+    font-size: 1.6em;  
+}
+.f14_opensanssemibold_dgr{
+	color:#052424;
+	font-family: open_sanssemibold;
+    font-size: 1.4em;  
+}
+/*for_btn_text*/
+.f14_opensansregular_btn_ad{
+	color:#ffffff;
+	font-family: open_sansregular;
+    font-size: 1.4em; 
+}
+.f14_opensanslight_btn_more{
+	color:#303030;
+	font-family: open_sanslight;
+    font-size: 1.4em; 
+}
+.f14_opensanssemibold_sor{
+	color:#808080;
+	font-family: open_sanssemibold;
+    font-size: 1.4em;  
+}
+.f14_opensanslight_advert_name{
+	color:#5b534c;
+	font-family: open_sanslight;
+    font-size: 1.4em; 
+	
+}
+.f13_opensanssemibold_sel{
+	color:#ffffff;
+	font-family: open_sanssemibold;
+    font-size: 1.3em;  
+}
+.f12_opensanssansregular_ft{
+	font-family: open_sansregular;
+    font-size: 1.2em;
+	color:#909090;}
+.f14_opensanssemibold_sor_green{
+	color:#275155;
+	font-family: open_sanssemibold;
+	font-size: 1.4em; 
+	}
+.f12_opensanssansregular_price_status{
+	font-family: open_sansregular;
+    font-size: 1.2em;
+	color:#48b38c;
+}
+.f12_opensanssansregular_autor_name{
+	font-family: open_sansregular;
+    font-size: 1.2em;
+	color:##275155;
+}	
+.radio_btn{
+	height:38px;
+	background-color: #48b38c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#48b38c), to(#48b38c));
+	background: -webkit-linear-gradient(top, #48b38c, #48b38c);
+	background: -moz-linear-gradient(top, #48b38c, #48b38c);
+	background: -ms-linear-gradient(top, #48b38c, #48b38c);
+	background: -o-linear-gradient(top, #48b38c, #48b38c);
+}	
+.select_button_two{
+	width:136px;}
+.select_button_three{
+	width:88px;
+}	
+/*.radio_btn{
+  		
+  background-color: #48b38c;
+  background-image: -webkit-gradient(linear, left center, right center, from(#48b38c),to(#48b38c));
+  background-image: -webkit-linear-gradient(left, #48b38c, #48b38c);
+  background-image:    -moz-linear-gradient(left, #48b38c, #48b38c);
+  background-image:      -o-linear-gradient(left, #48b38c, #48b38c);
+  background-image:         linear-gradient(left, #48b38c, #48b38c);
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='%d', EndColorStr='%d')", #48b38c, #48b38c));
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);}	*/
+	
+.radio_btn:active, .radio_btn.active, .radio_btn:hover{
+	background-color: #275155 !important;
+}	
+
+
+.advert_block{
+	width:310px;
+	height:310px;
+	border: 1px solid #e8edee;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+
+}
+.advert_block_in{
+	height: 250px;
+	width: 294px;
+	margin: 8px;
+	text-align: center;
+	background:#d55836;
+	position:relative;
+}
+.advert_block_description_box{
+	width: 294px;
+	height:45px;
+
+	margin: 8px;
+	
+
+}
+.img_ava{
+	width:30px;
+	float:left;
+}
+.likes_box{
+	position:absolute;
+	right:5px;
+	top:5px;
+	opacity: 0.7; /* Полупрозрачность элемента */
+}
+.mr_right_3{
+	margin-right:3px;
+}
